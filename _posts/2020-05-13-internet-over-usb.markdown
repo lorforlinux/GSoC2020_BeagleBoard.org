@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Internet over USB for BeagleBone (Linux)"
+title:  "Internet over USB for BeagleBone (Fedora Linux)"
 date:   2020-05-13 14:53:47 +0530
 categories: jekyll update
 ---
