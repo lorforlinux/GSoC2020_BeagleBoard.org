@@ -1,8 +1,6 @@
 ---
 layout: post
-title:  "vscode (Visual Studio Code) for Remote C/C++ Development and Deployment (Fedora Linux)"
-date:   Sat 23 May 2020 06:19:49 PM IST
-categories: jekyll update
+title:  vscode (Visual Studio Code) for Remote C/C++ Development and Deployment (Fedora Linux)
 ---
 
 In this post I have listed all the programs and commands I used to develop C/C++ programs, compile them using `arm-linux-gnueabihf-gcc/g++` and then deploy them on my BeagleBone. Debugging is not discussed in this post, If I find a way to perform that I will share it with you guys.

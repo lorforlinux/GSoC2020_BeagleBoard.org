@@ -1,8 +1,6 @@
 ---
 layout: post
-title:  "Internet over USB for BeagleBone (Fedora Linux)"
-date:   2020-05-13 14:53:47 +0530
-categories: jekyll update
+title:  Internet over USB for BeagleBone (Fedora Linux)
 ---
 
 This topic is explained all over the internet but my favourite is this detailed [Gist](https://gist.github.com/pdp7/d2711b5ff1fbb000240bd8337b859412) from [pdp7](https://github.com/pdp7) for configuring the network for Internet over USB. This post will be a concise version of that Gist.
