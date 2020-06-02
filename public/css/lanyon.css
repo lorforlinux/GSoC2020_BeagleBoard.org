@@ -202,7 +202,8 @@ a.sidebar-nav-item:focus {
 
 /* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
 .sidebar-checkbox {
-  position: fixed;
+  
+  position: absolute;
   opacity: 0;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -211,8 +212,8 @@ a.sidebar-nav-item:focus {
 
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
-  position: fixed;
-  top:  .8rem;
+  position: absolute;
+  top:  .5rem;
   left: 1rem;
   display: flex;
   align-items: center;
@@ -221,6 +222,8 @@ a.sidebar-nav-item:focus {
   background-color: #fff;
   border-radius: .25rem;
   cursor: pointer;
+  border-color: #eeeeee;
+  border-style: solid;
 }
 
 .sidebar-toggle::before {
