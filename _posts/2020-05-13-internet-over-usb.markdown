@@ -5,7 +5,7 @@ title:  Internet over USB for BeagleBone (Fedora Linux)
 
 This topic is explained all over the internet but my favourite is this detailed [Gist](https://gist.github.com/pdp7/d2711b5ff1fbb000240bd8337b859412) from [pdp7](https://github.com/pdp7) for configuring the network for Internet over USB. This post will be a concise version of that Gist.
 
-<span style="color:red"> Node: I am using Fedora Linux here, if you are using something different then wireless and ethernet device names might be different for you.</span>
+<p class="message" style="color:red"> Note: I am using Fedora Linux here, if you are using something different then wireless and ethernet device names might be different for you.</p>
 
 For using internet over USB we have to setup a conection like this:
 

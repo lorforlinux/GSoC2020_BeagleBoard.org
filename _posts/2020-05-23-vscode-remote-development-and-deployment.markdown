@@ -5,7 +5,7 @@ title:  vscode (Visual Studio Code) for Remote C/C++ Development and Deployment 
 
 In this post I have listed all the programs and commands I used to develop C/C++ programs, compile them using `arm-linux-gnueabihf-gcc/g++` and then deploy them on my BeagleBone. Debugging is not discussed in this post, If I find a way to perform that I will share it with you guys.
 
-<span style="color:red"> Node: I am using Fedora Linux here, the commands/programs shown below might have different name/location for your distribution.</span>
+<p class="message" style="color:red"> Note: I am using Fedora Linux here, the commands/programs shown below might have different name/location for your distribution.</p>
 
 ## Developmement
 
