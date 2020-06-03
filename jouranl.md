@@ -21,3 +21,4 @@ permalink: journal.html
   - Udated details accordingly.
   - Created this Journal.
 - Jun 3:
+  - DT overlay PRs for [LCD-4 Cape (BBAI)](https://github.com/beagleboard/bb.org-overlays/pull/172) and [Servo Cape (BBB)](https://github.com/beagleboard/bb.org-overlays/pull/173/)
