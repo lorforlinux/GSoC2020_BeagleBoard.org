@@ -22,3 +22,7 @@ permalink: journal.html
   - Created this Journal.
 - Jun 3:
   - DT overlay PRs for [LCD-4 Cape (BBAI)](https://github.com/beagleboard/bb.org-overlays/pull/172) and [Servo Cape (BBB)](https://github.com/beagleboard/bb.org-overlays/pull/173/)
+- Jun 4:
+  - Created `Hello World` Loadable Kernel Module (LKM).
+  - Updated [2020 Projects](https://elinux.org/BeagleBoard/GSoC/2020_Projects) wiki page.
+- Jun 5: 
