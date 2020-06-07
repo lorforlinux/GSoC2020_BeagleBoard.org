@@ -25,7 +25,7 @@ permalink: journal.html
 - Jun 4:
   - Created `Hello World` Loadable Kernel Module (LKM).
   - Updated [2020 Projects](https://elinux.org/BeagleBoard/GSoC/2020_Projects) wiki page.
-- Jun 5: 
+- Jun 5:
   - Created the presentation for Intro Video.
 - Jun 6:
   - Submitted [pr]( https://github.com/beagleboard/linux/pull/236) for GSoC warm up task.
@@ -33,4 +33,3 @@ permalink: journal.html
 - Jun 7:
   - Published [intro](https://www.youtube.com/watch?v=jP9fwOxp4Bc) YouTube Video.
 - Jun 8:
-  - 

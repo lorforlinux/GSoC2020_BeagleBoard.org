@@ -19,6 +19,6 @@ plugins:
 
 # Custom vars
 version:             1.0
-week:                 1
-status:              "Building standalone kernel module"
+week:                 2
+status:              "Working on beagle-tester"
 google_analytics_id: #UA-XXXX-Y
