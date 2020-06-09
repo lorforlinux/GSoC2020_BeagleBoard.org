@@ -35,3 +35,10 @@ permalink: journal.html
 - Jun 8:
   - Tested LCD4 cape on BBBWL
 - Jun 9:
+  - Cleard some doubts on DT and beagle-tester with the help of ds2, jkridner and rcn-ee.
+  - User minicom to debug the BBBWL
+    - sudo minicom -s
+    - serial port setup -> Baud: 115200, Device: /dev/ttyUSB0, HFC: NO.
+    - save setup as dfl
+    - sudo minicon + reset on BBBWL
+- Jun 10:
