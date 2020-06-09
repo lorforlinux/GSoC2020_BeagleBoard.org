@@ -33,3 +33,5 @@ permalink: journal.html
 - Jun 7:
   - Published [intro](https://www.youtube.com/watch?v=jP9fwOxp4Bc) YouTube Video.
 - Jun 8:
+  - Tested LCD4 cape on BBBWL
+- Jun 9:
