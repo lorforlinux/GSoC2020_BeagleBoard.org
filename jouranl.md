@@ -36,9 +36,13 @@ permalink: journal.html
   - Tested LCD4 cape on BBBWL
 - Jun 9:
   - Cleard some doubts on DT and beagle-tester with the help of ds2, jkridner and rcn-ee.
-  - User minicom to debug the BBBWL
+  - Used minicom to see the boot log/debug message of the BBBWL
     - sudo minicom -s
     - serial port setup -> Baud: 115200, Device: /dev/ttyUSB0, HFC: NO.
     - save setup as dfl
     - sudo minicon + reset on BBBWL
 - Jun 10:
+  - Installed fan on BBAI.
+  - Tried flashing new image on BBAI but no succes, [boot log](https://pastebin.com/qvrgWR5q).
+  - updating bb.org-overlays on the preinstalled image of BBAI to test [LCD4 cape overlay](https://github.com/beagleboard/bb.org-overlays/pull/172).
+- Jun 11:
