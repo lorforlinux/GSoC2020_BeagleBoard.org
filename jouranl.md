@@ -43,6 +43,9 @@ permalink: journal.html
     - sudo minicon + reset on BBBWL
 - Jun 10:
   - Installed fan on BBAI.
-  - Tried flashing new image on BBAI but no succes, [boot log](https://pastebin.com/qvrgWR5q).
+  - Tried flashing new image on BBAI but no success, [boot log](https://pastebin.com/qvrgWR5q).
   - updating bb.org-overlays on the preinstalled image of BBAI to test [LCD4 cape overlay](https://github.com/beagleboard/bb.org-overlays/pull/172).
 - Jun 11:
+  - Flashed new image on BBAI (sdcard was causing the problem before).
+  - added comments to [am5729-beagleboneai.dts](https://github.com/beagleboard/BeagleBoard-DeviceTrees/pull/15)
+- Jun 12:
