@@ -49,3 +49,6 @@ permalink: journal.html
   - Flashed new image on BBAI (sdcard was causing the problem before).
   - added comments to [am5729-beagleboneai.dts](https://github.com/beagleboard/BeagleBoard-DeviceTrees/pull/15)
 - Jun 12:
+  - 4D systems LCD4 not working on BBAI still.
+  - started working on servo cape with BBBWl.
+- Jun 13:
