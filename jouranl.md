@@ -52,3 +52,6 @@ permalink: journal.html
   - 4D systems LCD4 not working on BBAI still.
   - started working on servo cape with BBBWl.
 - Jun 13:
+  - Tested Servo, Load and Relay capes on BBWL.
+  - Started working on comms cape with BBWL.
+- Jun 14:
