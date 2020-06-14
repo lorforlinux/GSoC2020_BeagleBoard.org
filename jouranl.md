@@ -55,3 +55,6 @@ permalink: journal.html
   - Tested Servo, Load and Relay capes on BBWL.
   - Started working on comms cape with BBWL.
 - Jun 14:
+  - Partially tested comms cape, can bus and 4-20mA are reamined to be tested.
+  - Started working on beagle-tester.
+- Jun 15:
