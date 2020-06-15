@@ -32,6 +32,9 @@ permalink: journal.html
   - [Seprate repo](https://github.com/lorforlinux/gsoc-simple-char) with the GSoC char driver and a usespace program to test that simple char driver.
 - Jun 7:
   - Published [intro](https://www.youtube.com/watch?v=jP9fwOxp4Bc) YouTube Video.
+
+## Week 2
+
 - Jun 8:
   - Tested LCD4 cape on BBBWL
 - Jun 9:
@@ -57,4 +60,10 @@ permalink: journal.html
 - Jun 14:
   - Partially tested comms cape, can bus and 4-20mA are reamined to be tested.
   - Started working on beagle-tester.
+  
+## Week 3
+
 - Jun 15:
+  - Installed beagle-tester on BBWL.
+  - Trying to understand it's working (running behind the schedule).
+- Jun 16:
