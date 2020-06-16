@@ -67,3 +67,5 @@ permalink: journal.html
   - Installed beagle-tester on BBWL.
   - Trying to understand it's working (running behind the schedule).
 - Jun 16:
+  - Got the I2C5 virtual cape overlay working on BBAI.
+- Jun 17:
