@@ -69,3 +69,5 @@ permalink: journal.html
 - Jun 16:
   - Got the I2C5 virtual cape overlay working on BBAI.
 - Jun 17:
+  - Created BBAI UART Virtual cape overlays and got all 4 UARTs working on BBAI.
+- Jun 18:
