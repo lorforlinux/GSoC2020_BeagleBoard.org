@@ -76,3 +76,7 @@ permalink: journal.html
     - [BBAI UART10](https://github.com/beagleboard/bb.org-overlays/pull/179)
 - Jun 18:
   - Got same DT overlay to work on BBB ans BBAI
+- Jun 19:
+  - Updated BBAI kernel to 4.19.
+  - worked on /bone/uart/{1,2,3,4,5} overlays.
+- Jun 20:
