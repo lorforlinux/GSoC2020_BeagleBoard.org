@@ -75,3 +75,4 @@ permalink: journal.html
     - [BBAI UART8](https://github.com/beagleboard/bb.org-overlays/pull/178)
     - [BBAI UART10](https://github.com/beagleboard/bb.org-overlays/pull/179)
 - Jun 18:
+  - Got same DT overlay to work on BBB ans BBAI
