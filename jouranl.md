@@ -80,3 +80,6 @@ permalink: journal.html
   - Updated BBAI kernel to 4.19.
   - worked on /bone/uart/{1,2,3,4,5} overlays.
 - Jun 20:
+  - Created initial [compatibility layer](https://github.com/beagleboard/BeagleBoard-DeviceTrees/pull/17) for BBB and BBAI.
+  - Submitted [Virtual Cape UART overlays](https://github.com/beagleboard/bb.org-overlays/pull/180) that work on both BBB and BBAI.
+- Jun 21:
