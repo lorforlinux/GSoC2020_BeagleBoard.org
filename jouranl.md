@@ -83,3 +83,4 @@ permalink: journal.html
   - Created initial [compatibility layer](https://github.com/beagleboard/BeagleBoard-DeviceTrees/pull/17) for BBB and BBAI.
   - Submitted [Virtual Cape UART overlays](https://github.com/beagleboard/bb.org-overlays/pull/180) that work on both BBB and BBAI.
 - Jun 21:
+  - Resolved changes requred in above PRs
