@@ -20,5 +20,5 @@ plugins:
 # Custom vars
 version:             1.0
 week:                 2
-status:              "Working on BBAI virtual capes for buses."
+status:              "Released initial BBB and BBAI compatibility layer 🐾"
 google_analytics_id: #UA-XXXX-Y

@@ -84,3 +84,7 @@ permalink: journal.html
   - Submitted [Virtual Cape UART overlays](https://github.com/beagleboard/bb.org-overlays/pull/180) that work on both BBB and BBAI.
 - Jun 21:
   - Resolved changes requred in above PRs
+
+# Week 4
+
+- Jun 22
