@@ -89,3 +89,5 @@ permalink: journal.html
 
 - Jun 22
   - Started working on beagle-tester code refactoring.
+- Jun 23
+  - Worked on beagle-tester makefile.
