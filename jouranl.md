@@ -88,3 +88,4 @@ permalink: journal.html
 # Week 4
 
 - Jun 22
+  - Started working on beagle-tester code refactoring.
