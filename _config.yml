@@ -19,6 +19,6 @@ plugins:
 
 # Custom vars
 version:             1.0
-week:                 2
-status:              "Released initial BBB and BBAI compatibility layer 🐾"
+week:                 4
+status:              "Working on bone buses"
 google_analytics_id: #UA-XXXX-Y
