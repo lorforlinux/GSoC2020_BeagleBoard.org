@@ -87,7 +87,10 @@ permalink: journal.html
 
 # Week 4
 
-- Jun 22
+- Jun 22:
   - Started working on beagle-tester code refactoring.
-- Jun 23
+- Jun 23:
   - Worked on beagle-tester makefile.
+- Jun 24:
+  - created a post about [servo cape testing on BBB](https://lorforlinux.github.io/GSoC2020_BeagleBoard.org/2020/06/20/testing-servo-cape-on-BBBW/)
+- Jun 25:
