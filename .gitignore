@@ -44,3 +44,6 @@ bower_components
 
 # In progress
 PRs.md
+
+# Ignore backup files
+*.backup
