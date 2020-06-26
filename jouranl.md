@@ -94,3 +94,6 @@ permalink: journal.html
 - Jun 24:
   - created a post about [servo cape testing on BBB](https://lorforlinux.github.io/GSoC2020_BeagleBoard.org/2020/06/20/testing-servo-cape-on-BBBW/)
 - Jun 25:
+  - Rebased compatibility branch.
+- Jun 26:
+ 
