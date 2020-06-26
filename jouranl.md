@@ -96,4 +96,5 @@ permalink: journal.html
 - Jun 25:
   - Rebased compatibility branch.
 - Jun 26:
- 
+  - Started working on I2C bone buses code.
+- Jun 27
