@@ -102,3 +102,8 @@ permalink: journal.html
     - [/bone/i2c overlays](https://github.com/beagleboard/bb.org-overlays/pull/182)
     - [Updated compatibility layer](https://github.com/beagleboard/BeagleBoard-DeviceTrees/pull/17)
 - Jun 28:
+  - Started working on SPI bone buses code.
+
+Week 5
+
+- Jun 29:
