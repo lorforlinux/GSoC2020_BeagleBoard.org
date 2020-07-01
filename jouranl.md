@@ -112,3 +112,5 @@ permalink: journal.html
     - [Updated compatibility layer](https://github.com/beagleboard/BeagleBoard-DeviceTrees/pull/17)
   - Started working on comms cape testing (4-20mA and CAN bus were remaining).
 - Jun 30:
+  - Used logic anaylzer to capture the SPI data.
+- Jul 1:
