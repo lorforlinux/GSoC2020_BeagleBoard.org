@@ -114,3 +114,5 @@ permalink: journal.html
 - Jun 30:
   - Used logic anaylzer to capture the SPI data.
 - Jul 1:
+  - Preparing hardware for 4-20mA and can bus testing of comms cape.
+- Jul 2:
