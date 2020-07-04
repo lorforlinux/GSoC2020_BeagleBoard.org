@@ -117,4 +117,6 @@ permalink: journal.html
   - Preparing hardware for 4-20mA and can bus testing of comms cape.
 - Jul 2:
   - Tested CAN bus of comms cape using MCP2515.
-- Jul 3:
+- Jul 3 & Jul 4:
+  - Break from work ;)
+- Jul 5:
