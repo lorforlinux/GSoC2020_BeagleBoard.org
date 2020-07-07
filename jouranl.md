@@ -125,6 +125,10 @@ permalink: journal.html
   - Updated BBAI dts files.
   - Started working on Relay cape.
 
-Week 6
+# Week 6
 
 - Jul 7:
+  - Relay and Load cape working on BBB and BBAI using same overlay
+    - [Relay Cape overlay](https://github.com/beagleboard/bb.org-overlays/pull/186)
+    - [Load Cape overlay](https://github.com/beagleboard/bb.org-overlays/pull/185)
+- Jul 8:
