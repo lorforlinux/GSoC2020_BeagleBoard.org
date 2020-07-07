@@ -120,3 +120,5 @@ permalink: journal.html
 - Jul 3 & Jul 4:
   - Break from work ;)
 - Jul 5:
+  - Started working on the ultimate easy pinmuxing macros.
+- Jul 6:
