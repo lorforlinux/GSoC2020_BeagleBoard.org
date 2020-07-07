@@ -122,3 +122,9 @@ permalink: journal.html
 - Jul 5:
   - Started working on the ultimate easy pinmuxing macros.
 - Jul 6:
+  - Updated BBAI dts files.
+  - Started working on Relay cape.
+
+Week 6
+
+- Jul 7:
