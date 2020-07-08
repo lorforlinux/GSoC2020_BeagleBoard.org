@@ -132,3 +132,5 @@ permalink: journal.html
     - [Relay Cape overlay](https://github.com/beagleboard/bb.org-overlays/pull/186)
     - [Load Cape overlay](https://github.com/beagleboard/bb.org-overlays/pull/185)
 - Jul 8:
+  - Started working on new macros for easy BBAI pinmuxing.
+- Jul 9:
