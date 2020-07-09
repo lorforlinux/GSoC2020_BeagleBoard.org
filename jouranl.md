@@ -134,3 +134,5 @@ permalink: journal.html
 - Jul 8:
   - Started working on new macros for easy BBAI pinmuxing.
 - Jul 9:
+  - Completed initial work for BBAI pinmuxing macros, will test the code tomorrow.
+- Jul 10:
