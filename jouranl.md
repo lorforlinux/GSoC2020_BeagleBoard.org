@@ -136,3 +136,7 @@ permalink: journal.html
 - Jul 9:
   - Completed initial work for BBAI pinmuxing macros, will test the code tomorrow.
 - Jul 10:
+  - pushed BBAI pinmuxing macros
+    - [Initial combined macros for P8 & P9 headers](https://github.com/beagleboard/BeagleBoard-DeviceTrees/pull/17/commits/3c67d9e63fb980478c53f37184fafce0bbb95b84)
+    - [ Update pin header nodes](https://github.com/beagleboard/BeagleBoard-DeviceTrees/pull/17/commits/878f4c6a6dc419cb4a89e2bc22de6e40aed3d00c)
+- Jul 11:
