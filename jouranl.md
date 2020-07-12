@@ -143,3 +143,8 @@ permalink: journal.html
   - Started code clean up.
   - Reading about libgpiod.
 - Jul 12:
+  - Submitted code cleanup and bug fixing commites.
+
+# Week 7
+
+- Jul 13:
