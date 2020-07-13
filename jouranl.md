@@ -148,3 +148,9 @@ permalink: journal.html
 # Week 7
 
 - Jul 13:
+  - servoCape and motorCape now work with same DT overlay.
+    - servoCape: https://github.com/beagleboard/bb.org-overlays/pull/174
+    - motorCape: https://github.com/beagleboard/bb.org-overlays/pull/188
+  - Added PWM nodes in [compatibility code](https://github.com/beagleboard/BeagleBoard-DeviceTrees/pull/17)
+  - Tested libgpiod on BBAI using C examples from https://github.com/starnight/libgpiod-example
+- Jul 14:
