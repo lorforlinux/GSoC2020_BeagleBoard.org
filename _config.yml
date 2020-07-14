@@ -19,6 +19,6 @@ plugins:
 
 # Custom vars
 version:             1.0
-week:                 6
-status:              "Making compatibility layer seemless to use for old users ;)"
+week:                 7
+status:              "Working on comms and LCD cape!"
 google_analytics_id: #UA-XXXX-Y
