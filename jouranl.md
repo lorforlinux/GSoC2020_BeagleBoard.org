@@ -6,7 +6,7 @@ permalink: journal.html
 
 ---
 
-## Week 1
+### Week 1
 
 - Jun 1: Compiled Linux  
   - forked and then cloned the [beagleboard/linux](https://github.com/beagleboard/linux) repo.
@@ -33,7 +33,7 @@ permalink: journal.html
 - Jun 7:
   - Published [intro](https://www.youtube.com/watch?v=jP9fwOxp4Bc) YouTube Video.
 
-## Week 2
+### Week 2
 
 - Jun 8:
   - Tested LCD4 cape on BBBWL
@@ -61,7 +61,7 @@ permalink: journal.html
   - Partially tested comms cape, can bus and 4-20mA are reamined to be tested.
   - Started working on beagle-tester.
   
-## Week 3
+### Week 3
 
 - Jun 15:
   - Installed beagle-tester on BBWL.
@@ -85,7 +85,7 @@ permalink: journal.html
 - Jun 21:
   - Resolved changes requred in above PRs
 
-# Week 4
+## Week 4
 
 - Jun 22:
   - Started working on beagle-tester code refactoring.
@@ -104,7 +104,7 @@ permalink: journal.html
 - Jun 28:
   - Started working on SPI bone buses code.
 
-# Week 5
+## Week 5
 
 - Jun 29:
   - Completed initial work for I2C bone buses.
@@ -125,7 +125,7 @@ permalink: journal.html
   - Updated BBAI dts files.
   - Started working on Relay cape.
 
-# Week 6
+## Week 6
 
 - Jul 7:
   - Relay and Load cape working on BBB and BBAI using same overlay
@@ -145,7 +145,7 @@ permalink: journal.html
 - Jul 12:
   - Submitted code cleanup and bug fixing commites.
 
-# Week 7
+## Week 7
 
 - Jul 13:
   - servoCape and motorCape now work with same DT overlay.
@@ -154,3 +154,5 @@ permalink: journal.html
   - Added PWM nodes in [compatibility code](https://github.com/beagleboard/BeagleBoard-DeviceTrees/pull/17)
   - Tested libgpiod on BBAI using C examples from https://github.com/starnight/libgpiod-example
 - Jul 14:
+  - Started working on the LCD cape.
+- Jul 15:
