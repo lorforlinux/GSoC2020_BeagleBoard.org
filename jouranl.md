@@ -156,3 +156,5 @@ permalink: journal.html
 - Jul 14:
   - Started working on the LCD cape.
 - Jul 15:
+  - LCD cape not working on BBAI. one of the DT overlay i tried -> https://pastebin.com/0nAqQug5
+- Jul 16:
