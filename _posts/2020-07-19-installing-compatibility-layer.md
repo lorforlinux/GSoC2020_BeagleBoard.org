@@ -9,7 +9,7 @@ While testing I suggest you flash [the latest image](https://beagleboard.org/lat
 
 <p class="message" style="color:red;"> Note: We will be using kernel v4.19x for testing compatibility layer. If you are using v4.14x with minor changes in commands things will work out fine but I don't recommend using anything below v4.14x!</p>
 
-## Preparing SD Card
+## 🐾 Preparing SD Card
 
 Go to [the latest images](https://beagleboard.org/latest-images) page and download the image for your board OR click on the link(s) below to download the version I used while testing.
 
@@ -18,7 +18,7 @@ Go to [the latest images](https://beagleboard.org/latest-images) page and downlo
 
 You'll also require flasher like [balenaEtcher](https://www.balena.io/etcher/) to flash the image onto your SD Card.
 
-## Create dtb backup
+## 🐾 Create dtb backup
 
 After flashing the SD Card, insert it onto your board and it will boot from SD Card automatically. After the connection has been established ssh onto your board using `$ ssh debian@192.168.7.2` and give password `temppwd`. You might have to run `$ sudo apt update -y && sudo apt upgrade -y` on your board. This step will allow us to revert to the original state if things don't work out right for you. We are using v4.19x here, If you are using v4.14x you must change the command accordingly.
 
@@ -27,7 +27,7 @@ After flashing the SD Card, insert it onto your board and it will boot from SD C
 
 If dtc is not installed you can install it using, `$ sudo apt install device-tree-compiler`.
 
-## Installing the compatibility layer
+## 🐾 Installing the compatibility layer
 
 - Clone the repository, `$ git clone https://github.com/lorforlinux/BeagleBoard-DeviceTrees.git`.
 - Change directory, `$ cd BeagleBoard-DeviceTrees`.
@@ -41,7 +41,7 @@ If dtc is not installed you can install it using, `$ sudo apt install device-tre
 
 Your compatibility layer code is now set up correctly and you can try using new bone bus DT overlays on your board (BBBWL/BBB/BBAI).
 
-## Reverting to old dtb
+## 🐾 Reverting to old dtb
 
 If you wish to revert things to the original you can do that. Use a card reader and mount rootfs on your PC. now go to `/boot/dtbs/4.19*/` and open up a terminal there.
 
