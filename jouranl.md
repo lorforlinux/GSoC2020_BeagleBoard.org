@@ -159,3 +159,6 @@ permalink: journal.html
   - LCD cape not working on BBAI. one of the DT overlay i tried -> https://pastebin.com/0nAqQug5
 - Jul 16:
   - Tested more code for LCD, not working still.
+- Jul 17:
+  - Tried updating & upgrading as rcn-ee suggested but no success still.
+- Jul 18:
