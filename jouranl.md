@@ -162,3 +162,5 @@ permalink: journal.html
 - Jul 17:
   - Tried updating & upgrading as rcn-ee suggested but no success still.
 - Jul 18:
+  - I was out for some work, not able do anything for project today.
+- Jul 19:
