@@ -6,7 +6,7 @@ permalink: journal.html
 
 ---
 
-### Week 1
+## Week 1
 
 - Jun 1: Compiled Linux  
   - forked and then cloned the [beagleboard/linux](https://github.com/beagleboard/linux) repo.
@@ -33,7 +33,7 @@ permalink: journal.html
 - Jun 7:
   - Published [intro](https://www.youtube.com/watch?v=jP9fwOxp4Bc) YouTube Video.
 
-### Week 2
+## Week 2
 
 - Jun 8:
   - Tested LCD4 cape on BBBWL
@@ -61,7 +61,7 @@ permalink: journal.html
   - Partially tested comms cape, can bus and 4-20mA are reamined to be tested.
   - Started working on beagle-tester.
   
-### Week 3
+## Week 3
 
 - Jun 15:
   - Installed beagle-tester on BBWL.
@@ -158,3 +158,4 @@ permalink: journal.html
 - Jul 15:
   - LCD cape not working on BBAI. one of the DT overlay i tried -> https://pastebin.com/0nAqQug5
 - Jul 16:
+  - Tested more code for LCD, not working still.
