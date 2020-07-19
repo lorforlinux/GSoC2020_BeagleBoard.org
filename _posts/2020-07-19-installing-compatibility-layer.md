@@ -29,10 +29,11 @@ If dtc is not installed you can install it using, `$ sudo apt install device-tre
 
 ## Installing the compatibility layer
 
-- Clone the repository, `$ git clone https://github.com/lorforlinux/BeagleBoard-DeviceTrees/tree/v4.19.x-ti`.
+- Clone the repository, `$ git clone https://github.com/lorforlinux/BeagleBoard-DeviceTrees.git`.
 - Change directory, `$ cd BeagleBoard-DeviceTrees`.
+- Make sure you are on `v4.19.x-ti` branch using `$ git branch`. If you are not change branch using `$ git checkout v4.19.x-ti`.
 - Compile code, `$ make`.
-- To cleanup the binaries you can use, `$ make clean`
+- To cleanup the binaries you can use, `$ make clean`.
 - Install the dtb file on your board, make sure you have created the backup before doing this.
   - BBBWL/BBB: `$ sudo cp src/arm/am335x-boneblack-uboot-univ.dtb /boot/dtbs/4.19*/`.
   - BBAI: `$ sudo cp src/arm/am5729-beagleboneai.dtb /boot/dtbs/4.19*/`.
@@ -54,4 +55,4 @@ If you wish to revert things to the original you can do that. Use a card reader 
   - BBBWL/BBB: `$ sudo rm am335x-boneblack-uboot-univ.dtb.backup`.
   - BBAI: `$ sudo rm am5729-beagleboneai.dtb.backup`.
 
-<p class="message" style="color:purple;"> If you have any suggestion/feedback OR facing any problem create an issue <a href="https://github.com/lorforlinux/BeagleBoard-DeviceTrees/tree/v4.19.x-ti">here</a> OR you can <a href="mailto:deepaklorkhatri7@gmail.com">Send Email</a>. Thank you :) </p>
+<p class="message" style="color:purple;"> Tip: If you have any suggestion/feedback OR facing any problem create an issue in <a href="https://github.com/lorforlinux/BeagleBoard-DeviceTrees/tree/v4.19.x-ti">this</a> repository, Thank you :) </p>
