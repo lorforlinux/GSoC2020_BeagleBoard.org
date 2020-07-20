@@ -3,7 +3,7 @@ layout: post
 title:  Using bone bus I2C on BBBWL/BBB/BBAI
 ---
 
-In this post we will take a look at how you can use the new [compatibility layer](https://github.com/beagleboard/BeagleBoard-DeviceTrees/pull/17) along with some new bone bus DT overlays to setup `/bone/i2c/*` on your BBBWL/BBB/BBAI.
+In this post we will take a look at how you can use the new [compatibility layer](https://github.com/beagleboard/BeagleBoard-DeviceTrees/pull/17) along with some new bone bus DT overlays to setup `/dev/bone/i2c/*` on your BBBWL/BBB/BBAI.
 
 <p class="message" style="color:red;"> Note: You must correctly install the compatibility layer on your system before following the steps else you'll end up with your board not booting. It is recommended to boot the board from an sdCard so that you can edit back the /boot/uEnv.txt if your board didn't boot!</p>
 
