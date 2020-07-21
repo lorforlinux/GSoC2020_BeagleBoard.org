@@ -35,7 +35,7 @@ Note: If you are using BBBWL/BBB you can not use both `/dev/bone/i2c/1` and `/de
 
 Now, you are all set to use the overlays!
 
-## 🐾 Loading the oeralys using /boot/uEnv.txt
+## 🐾 Loading the overalys using /boot/uEnv.txt
 
 To load the overlays during boot you have to edit `/boot/uEnv.txt`. You can use either `nano` OR `vim` to edit the file. There are total 8 slots for overlays which we can use, `uboot_overlay_{addr0 - addr3}` are used to override cape with EEPROM and `uboot_overlay_{addr4 - addr7}` are used for additional custom capes. I suggest to use `uboot_overlay_{addr4 - addr7}` for bone i2c virtual capes but, You can use any to load the overlay.
 
