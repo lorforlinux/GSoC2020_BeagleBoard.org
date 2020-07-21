@@ -164,8 +164,10 @@ permalink: journal.html
 - Jul 18:
   - I was out for some work, not able do anything for project today.
 
-## Week 7
+## Week 8
 
 - Jul 19:
   - Worked on CAN bus, submitted a [PR](https://github.com/beagleboard/bb.org-overlays/pull/189) for CAN0 & CAN1
 - Jul 20:
+  - Started working on UART, I2C, SPI, PWM.
+- Jul 21:
