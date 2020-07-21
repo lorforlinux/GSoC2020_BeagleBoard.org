@@ -31,7 +31,7 @@ If dtc is not installed you can install it using, `$ sudo apt install device-tre
 
 - Clone the repository, `$ git clone https://github.com/lorforlinux/BeagleBoard-DeviceTrees.git`.
 - Change directory, `$ cd BeagleBoard-DeviceTrees`.
-- Make sure you are on `v4.19.x-ti` branch using `$ git branch`. If you are not change branch using `$ git checkout v4.19.x-ti`.
+- Make sure you are on `compatibility` branch using `$ git branch`. you can change branch using `$ git checkout compatibility`.
 - Compile code, `$ make`.
 - To cleanup the binaries you can use, `$ make clean`.
 - Install the dtb file on your board, make sure you have created the backup before doing this.

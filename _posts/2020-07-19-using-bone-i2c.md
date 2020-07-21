@@ -30,8 +30,8 @@ Note: If you are using BBBWL/BBB you can not use both `/dev/bone/i2c/1` and `/de
 - Change directory, `$ cd bb.org-overlays`.
 - Change branch, `$ git checkout bone_i2c`.
 - Compile overlays, `$ make`.
-- To cleanup the binaries you can use, `$ make clean`.
 - Install bone i2c DT overlays, `$ sudo cp src/arm/BONE-I2C{1,2,2A,3}-00A0.dtbo /lib/firmware/`.
+- To cleanup the binaries you can use, `$ make clean`.
 
 Now, you are all set to use the overlays!
 
