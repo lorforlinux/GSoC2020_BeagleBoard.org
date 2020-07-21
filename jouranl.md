@@ -171,3 +171,5 @@ permalink: journal.html
 - Jul 20:
   - Started working on UART, I2C, SPI, PWM.
 - Jul 21:
+  - Submitted [PR](https://github.com/beagleboard/bb.org-overlays/pull/193) for bone bus PWM DT overlays.
+- Jul 22:
