@@ -172,4 +172,7 @@ permalink: journal.html
   - Started working on UART, I2C, SPI, PWM.
 - Jul 21:
   - Submitted [PR](https://github.com/beagleboard/bb.org-overlays/pull/193) for bone bus PWM DT overlays.
-- Jul 22:
+- Jul 22 - 25:
+  - Worked on documentation and examples
+    - Updated [Cape Interface Spec](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec) page.
+- Jul 16:
