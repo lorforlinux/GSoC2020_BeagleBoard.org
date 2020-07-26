@@ -176,3 +176,4 @@ permalink: journal.html
   - Worked on documentation and examples
     - Updated [Cape Interface Spec](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec) page.
 - Jul 16:
+  - Started working on the cape examples.
