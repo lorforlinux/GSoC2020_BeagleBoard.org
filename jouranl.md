@@ -175,5 +175,11 @@ permalink: journal.html
 - Jul 22 - 25:
   - Worked on documentation and examples
     - Updated [Cape Interface Spec](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec) page.
-- Jul 16:
+- Jul 26:
   - Started working on the cape examples.
+
+## Week 9
+
+- Jul 27:
+  - Started working on pwm-timer.
+- Jul 28:
