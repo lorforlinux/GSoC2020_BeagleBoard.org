@@ -183,3 +183,11 @@ permalink: journal.html
 - Jul 27:
   - Started working on pwm-timer.
 - Jul 28:
+  - submitted [PR](https://github.com/beagleboard/bb.org-overlays/pull/195) for pwm-timer.
+- Jul 29:
+  - Did some reading on PRU.
+- Jul 30-31:
+  - Break from work due to EXAM (BTP presentation).
+- Aug 1:
+  - Started working on PRU & ADC.
+- Aug 2:
