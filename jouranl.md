@@ -186,4 +186,6 @@ permalink: journal.html
   - submitted [PR](https://github.com/beagleboard/bb.org-overlays/pull/195) for pwm-timer.
 - Jul 29:
   - Did some reading on PRU.
-- Jul 30-31:
+- Jul 30 & 31:
+  - Break from work due to EXAM (BTP presentation).
+- Aug 1:
