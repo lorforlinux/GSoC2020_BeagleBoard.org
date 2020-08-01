@@ -189,3 +189,5 @@ permalink: journal.html
 - Jul 30 & 31:
   - Break from work due to EXAM (BTP presentation).
 - Aug 1:
+  - Started working on PRU & ADC.
+- Aug 2:
