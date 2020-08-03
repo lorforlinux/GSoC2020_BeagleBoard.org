@@ -191,3 +191,8 @@ permalink: journal.html
 - Aug 1:
   - Started working on PRU & ADC.
 - Aug 2:
+  - got cloud9 PRU examples to work on BBAI.
+
+## Week 10
+
+- Aug 3:
