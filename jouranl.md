@@ -196,3 +196,5 @@ permalink: journal.html
 ## Week 10
 
 - Aug 3:
+  - got PRU1_0 & PRU1_1 to work on BBAI, wrote overlays and cloud9 examples for it.
+- Aug 4:
