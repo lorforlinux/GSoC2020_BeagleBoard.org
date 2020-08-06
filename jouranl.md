@@ -202,3 +202,5 @@ permalink: journal.html
 - Aug 5:
   - tested PRU macros.
 - Aug 6:
+  - Updated cape interface spec.
+- Aug 7:
