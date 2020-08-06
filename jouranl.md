@@ -198,3 +198,5 @@ permalink: journal.html
 - Aug 3:
   - got PRU1_0 & PRU1_1 to work on BBAI, wrote overlays and cloud9 examples for it.
 - Aug 4:
+  - tried rcn-ee's testing image (v5.4x)
+- Aug 5:
