@@ -200,3 +200,5 @@ permalink: journal.html
 - Aug 4:
   - tried rcn-ee's testing image (v5.4x)
 - Aug 5:
+  - tested PRU macros.
+- Aug 6:
