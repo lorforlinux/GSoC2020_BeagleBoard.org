@@ -204,3 +204,5 @@ permalink: journal.html
 - Aug 6:
   - Updated cape interface spec.
 - Aug 7:
+  - Worked on PRU examples.
+- Aug 8:
