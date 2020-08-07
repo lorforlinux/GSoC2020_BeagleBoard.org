@@ -206,3 +206,5 @@ permalink: journal.html
 - Aug 7:
   - Worked on PRU examples.
 - Aug 8:
+  - Started working on v5.4x kernel for BBAI
+- Aug 9:
