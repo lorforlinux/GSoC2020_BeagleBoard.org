@@ -212,4 +212,6 @@ permalink: journal.html
   
 ## Week 11
 
-- Aug 10
+- Aug 10:
+  - Not able to make the compatibility code to work on v5.4x-ti-overlay branch.
+- Aug 11:
