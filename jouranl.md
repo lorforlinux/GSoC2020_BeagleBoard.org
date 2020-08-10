@@ -208,3 +208,8 @@ permalink: journal.html
 - Aug 8:
   - Started working on v5.4x kernel for BBAI
 - Aug 9:
+  - Got BBBWL working with ecn-ee's testing image.
+  
+## Week 11
+
+- Aug 10
