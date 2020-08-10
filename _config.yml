@@ -19,6 +19,6 @@ plugins:
 
 # Custom vars
 version:             1.0
-week:                 8
-status:              "Working on comms and LCD cape!"
+week:                 11
+status:              "working on v5.4x kernel!"
 google_analytics_id: #UA-XXXX-Y
