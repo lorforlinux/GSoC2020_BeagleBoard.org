@@ -220,3 +220,5 @@ permalink: journal.html
 - Aug 12:
   - Compatibility layer got merged into v4.19.x-ti-overlays branch.
 - Aug 13:
+  - Submitted [UART console](https://github.com/beagleboard/cloud9-examples/pull/46) example to cloud9-examples.
+- Aug 14:
