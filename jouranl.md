@@ -218,3 +218,5 @@ permalink: journal.html
   - Tried merging compatibility code uisng meld but things didn't work out well.
   - rcn-ee's creating 4.19x-ti-overlays and that will solve the issue hopefully.
 - Aug 12:
+  - Compatibility layer got merged into v4.19.x-ti-overlays branch.
+- Aug 13:
