@@ -222,3 +222,5 @@ permalink: journal.html
 - Aug 13:
   - Submitted [UART console](https://github.com/beagleboard/cloud9-examples/pull/46) example to cloud9-examples.
 - Aug 14:
+  - updted blinkR30 examples [PR](https://github.com/beagleboard/cloud9-examples/pull/45#issuecomment-674055684).
+- Aug 15:
