@@ -224,3 +224,5 @@ permalink: journal.html
 - Aug 14:
   - updted blinkR30 examples [PR](https://github.com/beagleboard/cloud9-examples/pull/45#issuecomment-674055684).
 - Aug 15:
+  - Independence Day break 🤩
+- Aug 16:
