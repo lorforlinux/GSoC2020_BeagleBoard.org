@@ -226,3 +226,8 @@ permalink: journal.html
 - Aug 15:
   - Independence Day break 🤩
 - Aug 16:
+  - added McASP nodes and labels for BBBWL, BBB and BBAI.
+
+## Week 12
+
+- Aug 17:
