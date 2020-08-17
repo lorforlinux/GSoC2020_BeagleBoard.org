@@ -231,3 +231,6 @@ permalink: journal.html
 ## Week 12
 
 - Aug 17:
+  - added eCAP pinmux nodes.
+  - started working on eQEP.
+- Aug 18:
