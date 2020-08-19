@@ -234,3 +234,5 @@ permalink: journal.html
   - added eCAP pinmux nodes.
   - started working on eQEP.
 - Aug 18:
+  - Completed McASP, eCAP, ADC, and eQEP DT nodes.
+- Aug 19:

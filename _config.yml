@@ -18,7 +18,7 @@ plugins:
   - jekyll-paginate
 
 # Custom vars
-version:             1.0
-week:                 11
-status:              "working on v5.4x kernel!"
+version:             1.1
+week:                 12
+status:              "Finalizing compatibility code!"
 google_analytics_id: #UA-XXXX-Y
