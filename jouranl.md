@@ -236,3 +236,5 @@ permalink: journal.html
 - Aug 18:
   - Completed McASP, eCAP, ADC, and eQEP DT nodes.
 - Aug 19:
+  - [compatibility_update1](https://github.com/beagleboard/BeagleBoard-DeviceTrees/pull/20) has been merged.
+- Aug 20:
