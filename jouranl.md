@@ -238,3 +238,5 @@ permalink: journal.html
 - Aug 19:
   - [compatibility_update1](https://github.com/beagleboard/BeagleBoard-DeviceTrees/pull/20) has been merged.
 - Aug 20:
+  - Started working on compatibility_update2.
+- Aug 21:
