@@ -242,3 +242,5 @@ permalink: journal.html
 - Aug 21:
   - Worked in compatibility_update2.
 - Aug 22:
+  - Created new nodes and cleaned up things for compatibility_update2.
+- Aug 23:
