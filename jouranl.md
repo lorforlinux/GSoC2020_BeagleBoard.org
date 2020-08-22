@@ -240,3 +240,5 @@ permalink: journal.html
 - Aug 20:
   - Started working on compatibility_update2.
 - Aug 21:
+  - Worked in compatibility_update2.
+- Aug 22:
