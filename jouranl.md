@@ -244,3 +244,6 @@ permalink: journal.html
 - Aug 22:
   - Created new nodes and cleaned up things for compatibility_update2.
 - Aug 23:
+  - Completed compatibility_update2 coding.
+  - Started Testing i.e. Loading each overlays on boards.
+- Aug 24:
