@@ -252,3 +252,5 @@ permalink: journal.html
 - Aug 24:
   - Compatibility update got [merged](https://github.com/beagleboard/BeagleBoard-DeviceTrees/pull/21).
 - Aug 25:
+  - looking into TI SDK for LCD solution.
+- Aug 26:
