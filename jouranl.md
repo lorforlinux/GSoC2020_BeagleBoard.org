@@ -246,4 +246,9 @@ permalink: journal.html
 - Aug 23:
   - Completed compatibility_update2 coding.
   - Started Testing i.e. Loading each overlays on boards.
+
+## Week 13
+
 - Aug 24:
+  - Compatibility update got [merged](https://github.com/beagleboard/BeagleBoard-DeviceTrees/pull/21).
+- Aug 25:
