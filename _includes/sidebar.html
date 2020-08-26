@@ -4,35 +4,33 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
+  <!-- <div class="sidebar-item">
     <p>{{ site.description }}</p>
-  </div>
-
-  <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">Home</a>
-
-    {% comment %}
-      The code below dynamically generates a sidebar nav of pages with
-      `layout: page` in the front-matter. See readme for usage.
-    {% endcomment %}
-
-    {% assign pages_list = site.pages | sort:"url" %}
-    {% for node in pages_list %}
-      {% if node.title != null %}
-        {% if node.layout == "page" %}
-          <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | absolute_url }}">{{ node.title }}</a>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-
-    <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a> -->
-    <!-- <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a> -->
-    <!-- <span class="sidebar-nav-item">Currently v{{ site.version }}</span> -->
+  </div> -->
+  <a href="{{ site.baseurl }}/" title="Home"><img src="{{ site.baseurl }}/public/BeagleBoard.png" alt="aima logo" style="padding:1rem; margin: 0 auto;" class="brand"></a>
+  <div id="accordion">
+    {% if site.data.toc.toc[0] %}
+      {% for navigation in site.data.toc.toc %}
+        {% if navigation.section%}
+          <a class="text-light sidebar-nav-item" data-toggle="collapse" data-target="#nav{{forloop.index}}" aria-controls="nav{{forloop.index}}" aria-expanded="false" aria-label="Toggle navigation">{{ navigation.section }}</a>
+          <div class="collapse" id="nav{{forloop.index}}" data-parent="#accordion">
+                  {% if navigation.pages[0] %}
+                  <ul>
+                      {% for page in navigation.pages %}
+                      <li class="nav-item bg-light nav-li"><a class="nav-link text-dark" href="{{ site.baseurl }}/{{page.url}}">{{page.name}}</a></li>
+                      {% endfor %}
+                  </ul>
+                  {%endif%}
+          </div>
+        {%else%}
+          <a class="text-light sidebar-nav-item" href="{{ site.baseurl }}/{{navigation.url}}">{{navigation.name}}</a>
+        {%endif%}
+      {%endfor%}
+    {%endif%}
     <span class="sidebar-nav-item">Status: {{ site.status }}</span>
     <span class="sidebar-nav-item">Week: {{ site.week }}</span>
-
-  </nav>
-
+  </div>
+  
   <div class="sidebar-item">
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
