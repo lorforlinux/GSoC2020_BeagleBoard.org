@@ -5,6 +5,7 @@ description:         'This website is created for keeping track of the Developme
 url:                 https://lorforlinux.github.io
 baseurl:             /GSoC2020_BeagleBoard.org
 paginate:            5
+paginate_path:       "/blog/page:num/"
 permalink:           pretty
 
 # About/contact
