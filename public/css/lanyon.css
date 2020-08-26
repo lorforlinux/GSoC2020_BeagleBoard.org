@@ -42,6 +42,7 @@ body {
 
 html {
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  line-height: 1.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -60,10 +61,10 @@ h1, h2, h3, h4, h5, h6 {
  * regular page content.
  */
 
-/* .wrap {
+.wrap {
   position: relative;
   width: 100%;
-} */
+}
 
 
 /*
@@ -73,19 +74,18 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .container {
-  max-width: 28rem;
+  max-width: 42rem !important;
 }
-@media (min-width: 38em) {
+@media (min-width: 52em) {
   .container {
-    max-width: 32rem;
+    max-width: 46rem;
   }
 }
-@media (min-width: 56em) {
+@media (min-width: 60em) {
   .container {
-    max-width: 38rem;
+    max-width: 52rem;
   }
 }
-
 
 /*
  * Masthead
@@ -96,8 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
-  border-bottom: 1px solid #eee;
+  margin-bottom: -1rem;
 }
 .masthead-title {
   margin-top: 0;
@@ -114,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0;
 }
 
-@media (max-width: 48em) {
+@media (max-width: 60rem) {
   .masthead-title {
     text-align: center;
   }
@@ -203,6 +202,7 @@ a.sidebar-nav-item:focus {
 /* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
 .sidebar-checkbox {
   position: absolute;
+  display: none;
   opacity: 0;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -212,7 +212,7 @@ a.sidebar-nav-item:focus {
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
   position: absolute;
-  top:  .5rem;
+  top:  1rem;
   left: 1rem;
   display: flex;
   align-items: center;
@@ -227,8 +227,8 @@ a.sidebar-nav-item:focus {
 
 .sidebar-toggle::before {
   display: inline-block;
-  width: 32px;
-  height: 32px;
+  width: 1.5rem;
+  height: 1.5rem;
   content: "";
   background: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' fill='%23555' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M2.5 11.5A.5.5 0 013 11h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 7h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 3h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5z' clip-rule='evenodd'/%3E%3C/svg%3E") no-repeat;
 }
