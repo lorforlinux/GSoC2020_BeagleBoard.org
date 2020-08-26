@@ -6,8 +6,6 @@
   <body>
     
     {% include sidebar.html %}
-    
-
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
@@ -20,6 +18,14 @@
         </div>
       </div>
       {% include octopus.html %}
+      <div class="collapse" id="projectTagline">
+        <div class="p-4 container">
+            <h6 class="text-danger">This website is created for keeping track of the Development of "Cape compatibility layer for BeagleBone Black and BeagleBone AI" project.</a>. </h6>
+        </div>
+      </div>
+      <nav class="navbar">
+        <hr class="drop" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#projectTagline" aria-controls="projectTagline" aria-expanded="false" aria-label="Toggle navigation">
+      </nav>
       <div class="container content">
         {{ content }}
       </div>
