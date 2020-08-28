@@ -20,7 +20,7 @@
       {% include octopus.html %}
       <div class="collapse" id="projectTagline">
         <div class="p-4 container">
-            <h6 class="text-danger">This website is created for keeping track of the Development of "Cape compatibility layer for BeagleBone Black and BeagleBone AI" project.</a>. </h6>
+            <h6 class="text-danger">{{ site.description }}</a>. </h6>
         </div>
       </div>
       <nav class="navbar">
@@ -31,8 +31,12 @@
       </div>
     </div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
+    <label for="sidebar-checkbox" class="sidebar-toggle fas fa-bars"></label>
+    <div class='scrolltop'>
+      <div class='scroll icon'>
+        <i class="fa fa-chevron-circle-up"></i>
+      </div>
+    </div>
     <script src='{{ site.baseurl }}/public/js/script.js'></script>
     {% include foot.html %}
   </body>
