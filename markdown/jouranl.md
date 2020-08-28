@@ -261,4 +261,6 @@ permalink: /journal/
   - Updated Blog page for better pagination.
   - LCD4 is working with BBAI now! 
     - [BBAI-4D4C-00A1.dts](https://github.com/lorforlinux/BeagleBoard-DeviceTrees/blob/compatibility_Update3/src/arm/overlays/BBAI-4D4C-00A1.dts)
-
+- Aug 28:
+  - Finalized [cape interface spec](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec) page.
+- Aug 29:
