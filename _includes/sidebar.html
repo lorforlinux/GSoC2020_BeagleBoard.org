@@ -12,12 +12,12 @@
     {% if site.data.toc.toc[0] %}
       {% for navigation in site.data.toc.toc %}
         {% if navigation.section%}
-          <a class="text-light sidebar-nav-item" data-toggle="collapse" data-target="#nav{{forloop.index}}" aria-controls="nav{{forloop.index}}" aria-expanded="false" aria-label="Toggle navigation">{{ navigation.section }}</a>
+          <a class="text-light sidebar-nav-item pointer" data-toggle="collapse" data-target="#nav{{forloop.index}}" aria-controls="nav{{forloop.index}}" aria-expanded="false" aria-label="Toggle navigation">{{ navigation.section }}</a>
           <div class="collapse" id="nav{{forloop.index}}" data-parent="#accordion">
                   {% if navigation.pages[0] %}
-                  <ul>
+                  <ul class="nav-ul">
                       {% for page in navigation.pages %}
-                      <li class="nav-item bg-light nav-li"><a class="nav-link text-dark" href="{{ site.baseurl }}/{{page.url}}">{{page.name}}</a></li>
+                      <li class="nav-item bg-light nav-li pointer"><a class="nav-link text-dark" href="{{ site.baseurl }}/{{page.url}}">{{page.name}}</a></li>
                       {% endfor %}
                   </ul>
                   {%endif%}

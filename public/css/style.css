@@ -27,8 +27,14 @@ hr.drop:after{
     background:#303030;
 }
 
-ul{
-    margin-bottom: 0 !important;
+.pointer {
+    cursor: pointer;
+}
+
+.nav-ul{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0rem;
 }
 
 .nav-li {
