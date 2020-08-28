@@ -6,5 +6,7 @@ toc:
     pages:
       - name: UART
         url: uart
+  - name: Journal
+    url: journal
   - name: About
     url: about
