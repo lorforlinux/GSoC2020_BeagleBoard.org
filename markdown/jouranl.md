@@ -257,3 +257,8 @@ permalink: /journal/
   - Started Working on this site, updated page handling.
   - New Table of content file `/_data/toc.yaml` for finer control.
 - Aug 27:
+  - Created new collapsable item for `site.description`, press 📌to see the message.
+  - Updated Blog page for better pagination.
+  - LCD4 is working with BBAI now! 
+    - [BBAI-4D4C-00A1.dts](https://github.com/lorforlinux/BeagleBoard-DeviceTrees/blob/compatibility_Update3/src/arm/overlays/BBAI-4D4C-00A1.dts)
+
