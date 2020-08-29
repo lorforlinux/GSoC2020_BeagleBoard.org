@@ -25,36 +25,54 @@ title: Home
  
 ---
 
-# {% octicon mortar-board height:24 %} Achieved Milestones
+# {% octicon shield-check height:24 %} Achieved Milestones
 
-- Created (if achievable) and tested compatibility layer for Bone Buses on BBBWL, BBB, and BBAI. Checkout links below for more detials on each Bone Bus.
-    1. [LEDs](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#LEDs)
-    2. [I2C](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#I2C)
-    3. [SPI](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#SPI)
-    4. [UART](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#UART)
-    5. [CAN](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#CAN)
-    6. [ADC](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#ADC)
-    7. [PWM](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#PWM)
-    8. [TIMER PWM](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#TIMER_PWM)
-    9. [eCAP](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#eCAP)
-    10. [eMMC](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#eMMC)
-    11. [LCD](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#LCD)
-    12. [eQEP](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#eQEP)
-    13. [McASP](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#McASP)
-    14. [PRU](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#PRU)
-- Created compatible overlays for these capes using the bone bus compatibility layer,
-    - [Load Cape](https://github.com/beagleboard/BeagleBoard-DeviceTrees/blob/v4.19.x-ti-overlays/src/arm/overlays/BBORG_LOAD-00A2.dts).
-    - [Motor Cape](https://github.com/beagleboard/BeagleBoard-DeviceTrees/blob/v4.19.x-ti-overlays/src/arm/overlays/BBORG_MOTOR-00A2.dts).
-    - [Relay Cape](https://github.com/beagleboard/BeagleBoard-DeviceTrees/blob/v4.19.x-ti-overlays/src/arm/overlays/BBORG_RELAY-00A2.dts).
-    - [Sero Cape](https://github.com/beagleboard/BeagleBoard-DeviceTrees/blob/v4.19.x-ti-overlays/src/arm/overlays/BBORG_SERVO-00A2.dts).
-    - [Comms Cape](https://github.com/beagleboard/BeagleBoard-DeviceTrees/blob/v4.19.x-ti-overlays/src/arm/overlays/BBORG_COMMS-00A2.dts).
-- Got 4.3" Display Cape to work on BBAI.
-- Refactored code in [Beagle Tester](https://github.com/jadonk/beagle-tester) repository.
+<div class="message">
+    Only major milestones has been shown here! you can see the entire Project milestones list 
+    on the BeagleBoard GSoC 2020 Projects elinux.org page <a href="https://elinux.org/BeagleBoard/GSoC/2020_Projects#Milestones">here</a>.
+</div>
+
+<div class="text-center text-dark border border-warning bg-dark">
+    <a href="https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec" style="color:#ffc107; fill:#ffc107">
+        Created (when achievable) and tested compatibility layer for Bone Buses on BBBWL, BBB, and BBAI. Checkout links below for more detials on each Bone Bus.
+    </a>
+</div>
+
+| 1. [LEDs](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#LEDs) | 8. [TIMER PWM](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#TIMER_PWM) |
+| 2. [I2C](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#I2C) | 9. [eCAP](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#eCAP) |
+| 3. [SPI](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#SPI) | 10. [eMMC](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#eMMC) |
+| 4. [UART](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#UART) | 11. [LCD](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#LCD) |
+| 5. [CAN](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#CAN) | 12. [eQEP](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#eQEP) |
+| 6. [ADC](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#ADC) | 13. [McASP](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#McASP) |
+| 7. [PWM](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#PWM) | 14. [PRU](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec#PRU) |
+
+<div class="text-center text-dark border border-warning bg-dark">
+    <a href="https://github.com/lorforlinux/BeagleBoard-DeviceTrees/blob/compatibility_Update3/src/arm/overlays/" style="color:#ffc107; fill:#ffc107">
+        Created compatible overlays for these capes using the bone bus compatibility layer
+    </a>
+</div>
+
+| Cape | Compatible Overlay |
+| :-----: | :-----: |
+| Load | [BBORG_LOAD-00A2.dts](https://github.com/beagleboard/BeagleBoard-DeviceTrees/blob/v4.19.x-ti-overlays/src/arm/overlays/BBORG_LOAD-00A2.dts) |
+| Motor | [BBORG_MOTOR-00A2.dts](https://github.com/beagleboard/BeagleBoard-DeviceTrees/blob/v4.19.x-ti-overlays/src/arm/overlays/BBORG_MOTOR-00A2.dts) |
+| Relay | [BBORG_RELAY-00A2.dts](https://github.com/beagleboard/BeagleBoard-DeviceTrees/blob/v4.19.x-ti-overlays/src/arm/overlays/BBORG_RELAY-00A2.dts) |
+| Sero | [BBORG_SERVO-00A2.dts](https://github.com/beagleboard/BeagleBoard-DeviceTrees/blob/v4.19.x-ti-overlays/src/arm/overlays/BBORG_SERVO-00A2.dts) |
+| Comms | [BBORG_COMMS-00A2.dts](https://github.com/beagleboard/BeagleBoard-DeviceTrees/blob/v4.19.x-ti-overlays/src/arm/overlays/BBORG_COMMS-00A2.dts) |
+
+<div class="text-center text-dark border border-warning bg-dark">
+    <a href="https://github.com/lorforlinux/BeagleBoard-DeviceTrees/blob/compatibility_Update3/src/arm/overlays/" style="color:#ffc107; fill:#ffc107">
+        Got 4.3" Display Cape to work on BBAI.
+    </a>
+</div>
+
+| Cape | Overlay |
+| :-----: | :-----: |
+| 4D Systems GEN4-4DCAPE-43CT-CLB | [BBAI-4D4C-00A1.dts](https://github.com/lorforlinux/BeagleBoard-DeviceTrees/blob/compatibility_Update3/src/arm/overlays/BBAI-4D4C-00A1.dts) |
+
+<!-- - Refactored code in [Beagle Tester](https://github.com/jadonk/beagle-tester) repository.
 - Created new userspace examples in [cloud9-examples](https://github.com/beagleboard/cloud9-examples) repo.
-- Finalized [cape interface spec](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec) page.
-
-
-Project milestones list can be found on `elinux.org` [here](https://elinux.org/BeagleBoard/GSoC/2020_Projects#Milestones).
+- Finalized [cape interface spec](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec) page. -->
 
 ---
 
@@ -65,8 +83,8 @@ Only those PRs that are submitted during GSoC period are shown here. You can che
 </div>
 
 <!-- BeagleBoard-DeviceTrees -->
-<div class="text-center text-dark border border-warning bg-warning">
-    <a href="https://github.com/beagleboard/BeagleBoard-DeviceTrees">
+<div class="text-center text-dark border border-warning bg-dark">
+    <a href="https://github.com/beagleboard/BeagleBoard-DeviceTrees" style="color:#ffc107; fill:#ffc107">
         {% octicon repo height:16 %} beagleboard/BeagleBoard-DeviceTrees
     </a>
 </div>
@@ -80,9 +98,9 @@ Only those PRs that are submitted during GSoC period are shown here. You can che
 |[Compatibility](https://github.com/beagleboard/BeagleBoard-DeviceTrees/pull/17)| Closed|
 |[add comments to am5729-beagleboneai.dts](https://github.com/beagleboard/BeagleBoard-DeviceTrees/pull/15)| Merged |
 
-<!--  -->
-<div class="text-center text-dark border border-danger bg-warning">
-    <a href="https://github.com/beagleboard/cloud9-examples">
+<!-- cloud9-examples -->
+<div class="text-center text-dark border bg-dark">
+    <a href="https://github.com/beagleboard/cloud9-examples" style="color:#ffc107; fill:#ffc107">
         {% octicon repo height:16 %}  beagleboard cloud9-examples
     </a>
 </div>
@@ -94,13 +112,15 @@ Only those PRs that are submitted during GSoC period are shown here. You can che
 |[UART console](https://github.com/beagleboard/cloud9-examples/pull/46)| Merged |
 |[Correct sensors link and add displays link](https://github.com/beagleboard/cloud9-examples/pull/37)| Merged |
 
-<!-- BeagleBoard-DeviceTrees -->
-<div class="text-center text-dark border border-warning bg-warning">
-    <a href="https://github.com/beagleboard/bb.org-overlays">
+<!-- bb.org-overlays -->
+<div class="text-center text-dark border border-warning bg-dark">
+    <a href="https://github.com/beagleboard/bb.org-overlays" style="color:#ffc107; fill:#ffc107">
         {% octicon repo height:16 %} beagleboard/bb.org-overlays
     </a>
 </div>
-This repository hosted initial Compatible DT overlays but, along with a new uBoot update the location of the compatible overlays has been updated to {% octicon repo height:16 %}[beagleboard/BeagleBoard-DeviceTrees](https://github.com/beagleboard/BeagleBoard-DeviceTrees). Although the submitted code no longer required to be merged, Some of the PRs I submitted are listed below and you can visit the {% octicon repo height:16 %}[bb.org-overlays](https://github.com/beagleboard/bb.org-overlays) repo to see more.
+
+
+This repository hosted initial Compatible DT overlays but, along with new uBoot update the location of the compatible overlays has been updated to {% octicon repo height:16 %} [beagleboard/BeagleBoard-DeviceTrees](https://github.com/beagleboard/BeagleBoard-DeviceTrees). Some of the PRs I submitted are listed below, You can visit the {% octicon repo height:16 %} [bb.org-overlays](https://github.com/beagleboard/bb.org-overlays) repo to see more. The submitted code is no longer required to be merged!
 
 
 | PR     | Status |
@@ -111,8 +131,8 @@ This repository hosted initial Compatible DT overlays but, along with a new uBoo
 |[Bone can](https://github.com/beagleboard/bb.org-overlays/pull/189)| Open |
 
 <!-- BeagleBoard-DeviceTrees -->
-<div class="text-center text-dark border border-warning bg-warning">
-    <a href="https://github.com/jadonk/beagle-tester">
+<div class="text-center text-dark border border-warning bg-dark">
+    <a href="https://github.com/jadonk/beagle-tester" style="color:#ffc107; fill:#ffc107">
         {% octicon repo height:16 %}  jadonk/beagle-tester 
     </a>
 </div>
