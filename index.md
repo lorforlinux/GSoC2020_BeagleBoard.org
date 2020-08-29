@@ -34,7 +34,7 @@ title: Home
 
 <div class="text-center text-dark border border-warning bg-dark">
     <a href="https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec" style="color:#ffc107; fill:#ffc107">
-        Created (when achievable) and tested compatibility layer for Bone Buses on BBBWL, BBB, and BBAI. Checkout links below for more detials on each Bone Bus.
+        Created (when achievable) and tested compatibility layer for Bone Buses on BBBWL, BBB, and BBAI. Checkout links below for more detials like Header pin reference for each Bone Bus and Complimentary DT overlay which I created during GSoC time period.
     </a>
 </div>
 
