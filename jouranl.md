@@ -264,3 +264,5 @@ permalink: /journal/
 - Aug 28:
   - Finalized [cape interface spec](https://elinux.org/Beagleboard:BeagleBone_cape_interface_spec) page.
 - Aug 29:
+  - Updated this site, ready to submit GSoC final report.
+- Aug 30:
