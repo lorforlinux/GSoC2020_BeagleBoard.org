@@ -17,7 +17,7 @@
                   {% if navigation.pages[0] %}
                   <ul class="nav-ul">
                       {% for page in navigation.pages %}
-                      <li class="nav-item bg-light nav-li pointer"><a class="nav-link text-dark" href="{{ site.baseurl }}/{{page.url}}">{{page.name}}</a></li>
+                      <li class="nav-item nav-li pointer"><a class="nav-link text-dark" href="{{ site.baseurl }}/{{page.url}}">{{page.name}}</a></li>
                       {% endfor %}
                   </ul>
                   {%endif%}

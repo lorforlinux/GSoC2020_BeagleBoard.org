@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /UART/
+permalink: /I2C/
 ---
 
 Coming Soon!

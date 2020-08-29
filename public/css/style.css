@@ -38,9 +38,25 @@ hr.drop:after{
 }
 
 .nav-li {
+    padding-left:  0rem;
+    padding-right: 0rem;
+    border-bottom: 1px solid rgb(71, 71, 71);
+}
+
+.nav-li a{
     padding-left:  1.5rem;
     padding-right: 1.5rem;
-    border-bottom: 1px solid rgb(71, 71, 71);
+    text-decoration: none;
+    background-color: white;
+    border-color: transparent; 
+}
+
+.nav-link.active,
+a.nav-link:hover,
+a.nav-link:focus {
+  text-decoration: none;
+  background-color: rgba(255,255,255,.9);
+  border-color: transparent;
 }
 
 .pagination a, .pagination span {
@@ -105,7 +121,8 @@ hr.drop:after{
 }
 
 footer.jumbotron{
-margin-bottom: 0 !important;
+    position: relative;
+    margin-bottom: 0 !important;
 }
 .fa-footer {
     font-size:3rem !important;

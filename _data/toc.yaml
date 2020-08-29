@@ -4,8 +4,34 @@ toc:
     url: blog
   - section: Bone Buses
     pages:
-      - name: UART
-        url: uart
+      # - name: LEDs
+      #   url: LEDs
+      # - name: I2C
+      #   url: I2C
+      # - name: SPI
+      #   url: SPI
+      # - name: UART
+      #   url: UART
+      # - name: CAN
+      #   url: CAN
+      # - name: ADC
+      #   url: ADC
+      # - name: PWM
+      #   url: PWM
+      # - name: TIMER_PWM
+      #   url: TIMER_PWM
+      # - name: eCAP
+      #   url: eCAP
+      # - name: eMMC
+      #   url: eMMC
+      # - name: LCD
+      #   url: LCD
+      # - name: eQEP
+      #   url: eQEP
+      # - name: McASP
+      #   url: McASP
+      # - name: PRU
+      #   url: PRU
   - name: Journal
     url: journal
   - name: About

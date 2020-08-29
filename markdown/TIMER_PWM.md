@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /UART/
+permalink: /TIMER_PWM/
 ---
 
 Coming Soon!
