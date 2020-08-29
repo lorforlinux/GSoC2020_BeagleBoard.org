@@ -100,7 +100,7 @@ Only those PRs that are submitted during GSoC period are shown here. You can che
         {% octicon repo height:16 %} beagleboard/bb.org-overlays
     </a>
 </div>
-This repository hosted initial Compatible DT overlays but, along with a new uBoot update the location of the compatible overlays has been updated to {% octicon repo height:16 %} [beagleboard/BeagleBoard-DeviceTrees](https://github.com/beagleboard/BeagleBoard-DeviceTrees). Although the submitted code no longer required to be merged, Some of the PRs I submitted are listed below and you can visit the {% octicon repo height:16 %} [bb.org-overlays](https://github.com/beagleboard/bb.org-overlays) repo to see more.
+This repository hosted initial Compatible DT overlays but, along with a new uBoot update the location of the compatible overlays has been updated to {% octicon repo height:16 %}[beagleboard/BeagleBoard-DeviceTrees](https://github.com/beagleboard/BeagleBoard-DeviceTrees). Although the submitted code no longer required to be merged, Some of the PRs I submitted are listed below and you can visit the {% octicon repo height:16 %}[bb.org-overlays](https://github.com/beagleboard/bb.org-overlays) repo to see more.
 
 
 | PR     | Status |

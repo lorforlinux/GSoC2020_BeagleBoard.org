@@ -103,3 +103,22 @@ hr.drop:after{
     color: #101010;
     padding: 0.5rem;
 }
+
+footer.jumbotron{
+margin-bottom: 0 !important;
+}
+.fa-footer {
+    font-size:40px !important;
+}
+.fab{
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+.fab:hover {
+    transform :scale(1.25);
+    color:white !important;
+}
+
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
