@@ -17,6 +17,7 @@ author:
 # Gems
 plugins:
   - jekyll-paginate
+  - jekyll-octicons
 
 # Custom vars
 version:             1.5
