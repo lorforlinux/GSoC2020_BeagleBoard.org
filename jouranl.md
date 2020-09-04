@@ -266,3 +266,7 @@ permalink: /journal/
 - Aug 29:
   - Updated this site, ready to submit GSoC final report.
 - Aug 30:
+  - Submitted Final evaluation.
+- Aug 31:
+  - End of my GSoC2020 journey!
+  - Will continue to work on this site!
