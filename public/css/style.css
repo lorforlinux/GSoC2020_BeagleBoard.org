@@ -136,3 +136,7 @@ footer.jumbotron{
     transform :scale(1.25);
     color:white !important;
 }
+
+.copy:active {
+    transform: translateY(4px);
+}
