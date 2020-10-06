@@ -22,7 +22,92 @@ title: Home
     role="button" aria-pressed="true" target="_blank">
     Download BeagleBoard.org Latest Firmware Images to use Compatibility layer! 
 </a>
- 
+
+
+<div class="card">
+  <div class="card-header bg-dark text-light text-center">
+    Installing Compatibility Layer
+  </div>
+  <div class="card-body">
+    <!-- Section A -->
+    <h2 class="card-title">1. Update and Upgrade your system</h2>
+    <!-- Step 1 -->
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">&#36;</span>
+        </div>
+        <input type="text" class="form-control" value="sudo apt update -y" id="A1">
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary copy" type="button" onclick="copy2Clipboard('A1')"><span class="fa fa-copy"></span></button>
+        </div>
+    </div>
+    <!-- Step 2 -->
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">&#36;</span>
+        </div>
+        <input type="text" class="form-control" value="sudo apt upgrade -y" id="A2">
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary copy" type="button" onclick="copy2Clipboard('A2')"><span class="fa fa-copy"></span></button>
+        </div>
+    </div>
+    <!-- Step 3 -->
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">&#36;</span>
+        </div>
+        <input type="text" class="form-control" value="sudo reboot" id="A3">
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary copy" type="button" onclick="copy2Clipboard('A3')"><span class="fa fa-copy"></span></button>
+        </div>
+    </div>
+    <!-- Section B -->
+    <h2 class="card-title">2. Update Kernel</h2>
+    <!-- Step 1 -->
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">&#36;</span>
+        </div>
+        <input type="text" class="form-control" value=" sudo /opt/scripts/tools/update_kernel.sh --lts-4_19" id="B1">
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary copy" type="button" onclick="copy2Clipboard('B1')"><span class="fa fa-copy"></span></button>
+        </div>
+    </div>
+    <!-- Step 2 -->
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">&#36;</span>
+        </div>
+        <input type="text" class="form-control" value=" sudo reboot" id="B2">
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary copy" type="button" onclick="copy2Clipboard('B2')"><span class="fa fa-copy"></span></button>
+        </div>
+    </div>
+    <!-- Section C -->
+    <h2 class="card-title">3. Update Bootloader</h2>
+    <!-- Step 1 -->
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">&#36;</span>
+        </div>
+        <input type="text" class="form-control" value=" sudo /opt/scripts/tools/developers/update_bootloader.sh" id="C1">
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary copy" type="button" onclick="copy2Clipboard('C1')"><span class="fa fa-copy"></span></button>
+        </div>
+    </div>
+    <!-- Step 2 -->
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-sm">&#36;</span>
+        </div>
+        <input type="text" class="form-control" value=" sudo reboot" id="C2">
+        <div class="input-group-append">
+            <button class="btn btn-outline-secondary copy" type="button" onclick="copy2Clipboard('C2')"><span class="fa fa-copy"></span></button>
+        </div>
+    </div>
+  </div>
+</div>
+
 ---
 
 # {% octicon shield-check height:24 %} Achieved Milestones
