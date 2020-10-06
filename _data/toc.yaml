@@ -4,8 +4,8 @@ toc:
     url: blog
   - section: Bone Buses
     pages:
-      # - name: LEDs
-      #   url: LEDs
+      - name: LEDs
+        url: LEDs
       # - name: I2C
       #   url: I2C
       # - name: SPI
