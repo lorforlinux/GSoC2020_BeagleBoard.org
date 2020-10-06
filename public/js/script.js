@@ -29,3 +29,11 @@ $(function(){
     return false
   })
 })
+
+function copy2Clipboard(idName) {
+  var copyText = document.getElementById(idName);
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  // alert("Copied the text: " + copyText.value);
+}
