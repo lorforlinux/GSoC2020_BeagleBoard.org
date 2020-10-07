@@ -6,8 +6,8 @@ toc:
     pages:
       - name: LEDs
         url: LEDs
-      # - name: I2C
-      #   url: I2C
+      - name: I2C
+        url: I2C
       # - name: SPI
       #   url: SPI
       # - name: UART
