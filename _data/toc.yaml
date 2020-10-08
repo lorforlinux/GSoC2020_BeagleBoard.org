@@ -8,8 +8,8 @@ toc:
         url: LEDs
       - name: I2C
         url: I2C
-      # - name: SPI
-      #   url: SPI
+      - name: SPI
+        url: SPI
       # - name: UART
       #   url: UART
       # - name: CAN
