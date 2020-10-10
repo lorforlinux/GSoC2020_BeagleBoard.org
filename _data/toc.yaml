@@ -12,8 +12,8 @@ toc:
         url: SPI
       - name: UART
         url: UART
-      # - name: CAN
-      #   url: CAN
+      - name: CAN
+        url: CAN
       # - name: ADC
       #   url: ADC
       # - name: PWM
