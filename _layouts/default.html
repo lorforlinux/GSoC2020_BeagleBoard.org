@@ -8,7 +8,7 @@
     {% include sidebar.html %}
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
+    <div class="wrap d-flex flex-column sticky-footer-wrapper">
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
@@ -26,7 +26,7 @@
       <nav class="navbar">
         <hr class="drop" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#projectTagline" aria-controls="projectTagline" aria-expanded="false" aria-label="Toggle navigation">
       </nav>
-      <div class="container content">
+      <div class="container content flex-fill">
         {{ content }}
       </div>
     </div>
