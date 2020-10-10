@@ -16,8 +16,8 @@ toc:
         url: CAN
       # - name: ADC
       #   url: ADC
-      # - name: PWM
-      #   url: PWM
+      - name: PWM
+        url: PWM
       # - name: TIMER_PWM
       #   url: TIMER_PWM
       # - name: eCAP
