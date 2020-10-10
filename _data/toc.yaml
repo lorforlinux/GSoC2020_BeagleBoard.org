@@ -22,16 +22,16 @@ toc:
         url: TIMER_PWM
       - name: eCAP
         url: eCAP
-      # - name: eMMC
-      #   url: eMMC
-      # - name: LCD
-      #   url: LCD
-      # - name: eQEP
-      #   url: eQEP
-      # - name: McASP
-      #   url: McASP
-      # - name: PRU
-      #   url: PRU
+      - name: eMMC
+        url: eMMC
+      - name: LCD
+        url: LCD
+      - name: eQEP
+        url: eQEP
+      - name: McASP
+        url: McASP
+      - name: PRU
+        url: PRU
   - name: Journal
     url: journal
   - name: About
