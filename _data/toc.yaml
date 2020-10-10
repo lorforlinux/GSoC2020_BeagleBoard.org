@@ -10,8 +10,8 @@ toc:
         url: I2C
       - name: SPI
         url: SPI
-      # - name: UART
-      #   url: UART
+      - name: UART
+        url: UART
       # - name: CAN
       #   url: CAN
       # - name: ADC
