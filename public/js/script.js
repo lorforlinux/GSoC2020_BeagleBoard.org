@@ -32,8 +32,10 @@ $(function(){
 
 function copy2Clipboard(idName) {
   var copyText = document.getElementById(idName);
+  copyText.disabled = false;
   copyText.select();
   copyText.setSelectionRange(0, 99999)
   document.execCommand("copy");
+  copyText.disabled = true;
   // alert("Copied the text: " + copyText.value);
 }

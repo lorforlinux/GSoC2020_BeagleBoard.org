@@ -36,7 +36,7 @@ title: Home
         <div class="input-group-prepend">
             <span class="input-group-text" id="inputGroup-sizing-sm">&#36;</span>
         </div>
-        <input type="text" class="form-control" value="sudo apt update -y" id="A1">
+        <input type="text" class="bg-light form-control" value="sudo apt update -y" id="A1" disabled>
         <div class="input-group-append">
             <button class="btn btn-outline-secondary copy" type="button" onclick="copy2Clipboard('A1')"><span class="fa fa-copy"></span></button>
         </div>
@@ -46,7 +46,7 @@ title: Home
         <div class="input-group-prepend">
             <span class="input-group-text" id="inputGroup-sizing-sm">&#36;</span>
         </div>
-        <input type="text" class="form-control" value="sudo apt upgrade -y" id="A2">
+        <input type="text" class="bg-light form-control" value="sudo apt upgrade -y" id="A2" disabled>
         <div class="input-group-append">
             <button class="btn btn-outline-secondary copy" type="button" onclick="copy2Clipboard('A2')"><span class="fa fa-copy"></span></button>
         </div>
@@ -56,7 +56,7 @@ title: Home
         <div class="input-group-prepend">
             <span class="input-group-text" id="inputGroup-sizing-sm">&#36;</span>
         </div>
-        <input type="text" class="form-control" value="sudo reboot" id="A3">
+        <input type="text" class="bg-light form-control" value="sudo reboot" id="A3" disabled>
         <div class="input-group-append">
             <button class="btn btn-outline-secondary copy" type="button" onclick="copy2Clipboard('A3')"><span class="fa fa-copy"></span></button>
         </div>
@@ -68,7 +68,7 @@ title: Home
         <div class="input-group-prepend">
             <span class="input-group-text" id="inputGroup-sizing-sm">&#36;</span>
         </div>
-        <input type="text" class="form-control" value=" sudo /opt/scripts/tools/update_kernel.sh --lts-4_19" id="B1">
+        <input type="text" class="bg-light form-control" value=" sudo /opt/scripts/tools/update_kernel.sh --lts-4_19" id="B1" disabled>
         <div class="input-group-append">
             <button class="btn btn-outline-secondary copy" type="button" onclick="copy2Clipboard('B1')"><span class="fa fa-copy"></span></button>
         </div>
@@ -78,7 +78,7 @@ title: Home
         <div class="input-group-prepend">
             <span class="input-group-text" id="inputGroup-sizing-sm">&#36;</span>
         </div>
-        <input type="text" class="form-control" value=" sudo reboot" id="B2">
+        <input type="text" class="bg-light form-control" value=" sudo reboot" id="B2" disabled>
         <div class="input-group-append">
             <button class="btn btn-outline-secondary copy" type="button" onclick="copy2Clipboard('B2')"><span class="fa fa-copy"></span></button>
         </div>
@@ -90,7 +90,7 @@ title: Home
         <div class="input-group-prepend">
             <span class="input-group-text" id="inputGroup-sizing-sm">&#36;</span>
         </div>
-        <input type="text" class="form-control" value=" sudo /opt/scripts/tools/developers/update_bootloader.sh" id="C1">
+        <input type="text" class="bg-light form-control" value=" sudo /opt/scripts/tools/developers/update_bootloader.sh" id="C1" disabled>
         <div class="input-group-append">
             <button class="btn btn-outline-secondary copy" type="button" onclick="copy2Clipboard('C1')"><span class="fa fa-copy"></span></button>
         </div>
@@ -100,7 +100,7 @@ title: Home
         <div class="input-group-prepend">
             <span class="input-group-text" id="inputGroup-sizing-sm">&#36;</span>
         </div>
-        <input type="text" class="form-control" value=" sudo reboot" id="C2">
+        <input type="text" class="bg-light form-control" value=" sudo reboot" id="C2" disabled>
         <div class="input-group-append">
             <button class="btn btn-outline-secondary copy" type="button" onclick="copy2Clipboard('C2')"><span class="fa fa-copy"></span></button>
         </div>
