@@ -3,7 +3,7 @@ layout: default
 permalink: /I2C/
 ---
 
-I2C bone bus nodes allow creating compatible overlays for BBBWl, BBB, & BBAI. For the definitions, you can see [bbai-bone-buses.dtsi#L388](https://github.com/lorforlinux/BeagleBoard-DeviceTrees/blob/97a6f0daa9eab09633a2064f68a53b107d6e3968/src/arm/bbai-bone-buses.dtsi#L388) & [bbb-bone-buses.dtsi#L403](https://github.com/lorforlinux/BeagleBoard-DeviceTrees/blob/97a6f0daa9eab09633a2064f68a53b107d6e3968/src/arm/bbai-bone-buses.dtsi#L388).
+Compatibility layer provides simple I2C bone bus nodes for creating compatible overlays for BBBWl, BBB, & BBAI. The format followed for these nodes is `bone_i2c_#`. For the definitions, you can see [bbai-bone-buses.dtsi#L388](https://github.com/lorforlinux/BeagleBoard-DeviceTrees/blob/97a6f0daa9eab09633a2064f68a53b107d6e3968/src/arm/bbai-bone-buses.dtsi#L388) & [bbb-bone-buses.dtsi#L403](https://github.com/lorforlinux/BeagleBoard-DeviceTrees/blob/97a6f0daa9eab09633a2064f68a53b107d6e3968/src/arm/bbai-bone-buses.dtsi#L388).
 
 <div class="text-center text-dark border border-warning bg-dark">
     <a style="color:#ffc107; fill:#ffc107">
