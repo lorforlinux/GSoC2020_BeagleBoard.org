@@ -2,7 +2,7 @@
 title:               GSoC 2020
 tagline:             'BeagleBoard.org'
 description:         'This website is created for keeping track of the Development of "Cape compatibility layer for BeagleBone Black and BeagleBone AI" project.'
-url:                 https://deepaklorkhatri.me
+url:                 https://lorforlinux.github.io
 baseurl:             /GSoC2020_BeagleBoard.org
 paginate:            5
 paginate_path:       "/blog/page:num/"
@@ -11,7 +11,7 @@ permalink:           pretty
 # About/contact
 author:
   name:              Deepak Khatri
-  url:               https://deepaklorkhatri.me/
+  url:               https://lorforlinux.github.io
   email:             deepaklorkhatri7@gmail.com
 
 # Gems
